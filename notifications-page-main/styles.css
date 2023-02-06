@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  background-color: hsl(210, 60%, 98%);
+  font-size: 1.4rem;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+.heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.read {
+  background: none;
+  border: none;
+  color: hsl(219, 12%, 42%);
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 1.4rem;
+}
+
+.read:hover,
+.read:active {
+  cursor: pointer;
+  color: hsl(219, 85%, 26%);
+  transition: 0.3s;
+}
+
+.notif-count {
+  color: white;
+  background-color: hsl(219, 85%, 26%);
+  padding: 0.1rem 1rem;
+  border-radius: 10px;
+  color: hsl(211, 68%, 94%);
+}
+
+.container {
+  margin: 5rem auto;
+  max-width: 62rem;
+  padding: 2rem;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.notification {
+  text-decoration: none;
+  color: hsl(219, 12%, 42%);
+  padding: 1.5rem;
+  border-radius: 8px;
+
+  display: flex;
+  justify-content: flex-start;
+  gap: 1.5rem;
+}
+
+.dot {
+  display: inline-block;
+  background: hsl(1, 90%, 64%);
+  padding: 0.4rem;
+  border-radius: 50%;
+  margin-left: 0.2rem;
+}
+
+.profile-pic {
+  max-width: 4rem;
+  max-height: 4rem;
+}
+
+.name {
+  font-weight: 800;
+  color: hsl(224, 21%, 14%);
+}
+
+.name:hover {
+  color: hsl(219, 85%, 26%);
+  transition: 0.3s;
+}
+
+.unread {
+  background-color: hsl(210, 60%, 98%);
+}
+
+.text-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.message {
+  border: 0.5px solid lightgray;
+  border-radius: 8px;
+  padding: 2rem;
+  margin-top: 1rem;
+}
+
+.message:hover {
+  background-color: hsl(211, 68%, 94%);
+  transition: 0.3s;
+}
+
+.time {
+  color: hsl(219, 14%, 63%);
+}
+
+.chess-pic {
+  margin-left: auto;
+}
+
+.activity {
+  font-weight: bold;
+}
+
+.group {
+  text-decoration: none;
+  color: rgb(6, 6, 120);
+}
+
+.hidden {
+  display: none;
+}
